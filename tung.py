@@ -5,7 +5,6 @@
 
 
 div {
-    font-size: 10px;
     width: 30rem;
     height: 55rem;
     background-color: #FF0000;
