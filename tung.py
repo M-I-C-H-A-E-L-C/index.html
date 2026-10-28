@@ -1,6 +1,7 @@
 //alt l, alt o to open in google
 //alt l, alt c to close
 
+  <p style="background-color:#f3b50c;"> Hi </p>
 (for html)
 
 
@@ -9,6 +10,14 @@ div {
     height: 55rem;
     background-color: #FF0000;
     margin: 2.5 rem 5rem;
+
+div {
+    width: 50rem;
+    height: 3rem;
+    background-color: #ff8800;
+    margin: 2.5 rem 5rem;
+    font-size: 40px;
+    
 }
 
 (css)

@@ -9,18 +9,31 @@ body,
 body {
     background-color: hsl(39, 100%, 85%);
 }
-div {
-    width: 50rem;
-    height: 3rem;
-    background-color: #ff8800;
-    margin: 2.5 rem 5rem;
-    font-size: 40px;
-}
 
 .card{
-    display: flex;
+    font-size: 30px;
+    width: 50rem;
+    height: 3rem;
+    background-color: linear-gradient(rgba(5,227,235,0.8), rgb(50,100,70));
 }
 
 .idk{
-    font-size: 20px;
+    font-size: 40px;
+    width: 50rem;
+    height: 8rem;
+    background-color: #ffee00;
+        background-image: linear-gradeient(
+        rgba(5, 227, 235, 0.8)
+        url(Moneky.jpg));
+    margin: 2.5 rem 5rem;
+}
+
+.hero{
+    height:vh;
+    font-size: 40px;
+    width: 50rem;
+    height: 8rem;
+    background-color: #ff8800;
+    margin: 2.5 rem 5rem;
+    text-align: center;
 }
