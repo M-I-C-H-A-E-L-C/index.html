@@ -5,6 +5,7 @@ body,
     box-sizing:border-box;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 body {
     background-color: hsl(39, 100%, 85%);
@@ -12,9 +13,9 @@ body {
 
 .card{
     font-size: 30px;
-    width: 50rem;
     height: 3rem;
     background-color: linear-gradient(rgba(5,227,235,0.8), rgb(50,100,70));
+    text-align: center;
 }
 
 .idk{
@@ -26,14 +27,20 @@ body {
         rgba(5, 227, 235, 0.8)
         url(Moneky.jpg));
     margin: 2.5 rem 5rem;
+    text-align: center;
 }
 
 .hero{
     height:vh;
     font-size: 40px;
-    width: 50rem;
     height: 8rem;
     background-color: #ff8800;
     margin: 2.5 rem 5rem;
     text-align: center;
+}
+
+.image{
+    width: 50rem;
+    height: 8rem;
+
 }
