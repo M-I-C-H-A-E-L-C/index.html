@@ -44,3 +44,13 @@ body {
     height: 8rem;
 
 }
+
+.hero_landing_button{
+    font-size: 50px;
+    color:blue;
+    text-decoration: underline;
+}
+
+.hero_landing_button:hover{
+
+}
