@@ -1,0 +1,20 @@
+html,
+body,
+* {
+    font-size: 10px; 
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero{
+    font-size: 40px;
+    height: 8rem;
+    width: 30rem;
+    color: #ff8800;
+    background-color: antiquewhite;
+    margin: 2.5 rem 5rem;
+    text-align: center;
+    justify-self: center;
+}
