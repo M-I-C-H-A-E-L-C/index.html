@@ -7,13 +7,23 @@ body,
     padding: 0;
     text-align: center;
 }
+body{
+
+    background-image: url(AppleLogo.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 90vw 90vh;
+    background-position: top center;
+}
 body {
-    background-image: url(TuffBackground.jpg);
+    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-    background-size: 100vw 100vh;
     min-height: 150vh;
+    background-attachment: fixed;
+    background-color: #7cf099;
+
 }
 
 .card{
@@ -24,7 +34,7 @@ body {
 }
 
 .idk{
-    font-size: 40px;
+    font-size: 40px;    
     width: 50rem;
     height: 8rem;
     background-color: #ffee00;

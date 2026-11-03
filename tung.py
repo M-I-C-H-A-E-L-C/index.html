@@ -26,4 +26,9 @@ div {
 
     background-color: linear-gradient(rgba(5,227,235,0.8));
 
+    background-image: url(Abstract.jpg);
+
+    background-size: 100vw 100vh;
+
 (css)
+
