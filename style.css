@@ -6,58 +6,36 @@ body,
     margin: 0;
     padding: 0;
     text-align: center;
-}
-body{
 
-    background-image: url(AppleLogo.png);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: 90vw 90vh;
-    background-position: top center;
-}
-body {
-    
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    min-height: 150vh;
-    background-attachment: fixed;
     background-color: #7cf099;
-
 }
 
-.card{
-    font-size: 30px;
-    height: 3rem;
-    background-color: linear-gradient(rgba(5,227,235,0.8), rgb(50,100,70));
-    text-align: center;
-}
-
-.idk{
-    font-size: 40px;    
-    width: 50rem;
-    height: 8rem;
-    background-color: #ffee00;
-        background-image: linear-gradeient(
-        rgba(5, 227, 235, 0.8)
-        url(Moneky.jpg));
-    margin: 2.5 rem 5rem;
-    text-align: center;
+.StandardText{
+    font-size: 80px;
 }
 
 .hero{
-    height:vh;
-    font-size: 40px;
-    height: 8rem;
-    background-color: #ff8800;
-    margin: 2.5rem 5rem;
+    
+    font-size: 100px;
+    height: 10rem;
+    background-color: #00ff00;
+    margin: 2.5rem 5rem;    
     text-align: center;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in-out forwards; 
 }
 
-.image{
-    width: 50rem;
-    height: 8rem;
-
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .hero_landing_button{
@@ -69,10 +47,15 @@ body {
     text-decoration: underline;
 
     cursor: pointer;
+
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
 }
 
+
 .hero_landing_button:hover{
-    background-color: #5d82aa;;
+    background-color: #5d82aa;
+    opacity: 1;
 }
 
 .tangerine-regular {
@@ -85,4 +68,28 @@ body {
   font-family: "Tangerine", cursive;
   font-weight: 700;
   font-style: normal;
+}
+
+
+.backdrop {
+    height: 80rem;
+    width: 100%;
+
+
+    background-image: url("GreenBG.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.backdrop h1{
+    font-size: 80px;
+}
+
+.backdrop p{
+    font-size: 40px;
 }
